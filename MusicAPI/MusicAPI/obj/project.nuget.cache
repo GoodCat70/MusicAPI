@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S4ohwBErDKn9UEOJn7ueZ8h3xn+TwTgPvJohl+AgCQ7oifSpOz9YkXykvuenZ1XLkwV+LAVoT3bCMaE4SaIlMw==",
+  "dgSpecHash": "zrcR7azTHEX8HEylHehIQYZFeNwroebYtFxceiE6UnuegUUKnOin6Fd7V8Ty1lye581ObruwOcXVmRYv2QZYug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\garciarud\\source\\repos\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
+  "projectFilePath": "C:\\Users\\garciarud\\Desktop\\Git\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\garciarud\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
