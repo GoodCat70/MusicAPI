@@ -46,6 +46,12 @@ namespace MusicAPI.Controllers
                 return Ok(person);
             }
         }
+            //api/Employees/Test/{id} - api attribute routing
+        [HttpGet("[action]/{id}")]
+        public int Test(int id)
+        {
+            return id; 
+        }
 
         [HttpPost]                             //From Body tells the endpoint to accept data from the body of the request           
         public async Task<IActionResult> Post([FromBody] Personal personal)
