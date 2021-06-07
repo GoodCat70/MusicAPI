@@ -46,7 +46,7 @@ namespace MusicAPI.Controllers
                 return Ok(person);
             }
         }
-            //api/Employees/Test/{id} - api attribute routing
+            //api/Employees/Test/{id} - api attribute routing. Custom Method Name = TEST
         [HttpGet("[action]/{id}")]
         public int Test(int id)
         {
@@ -56,7 +56,7 @@ namespace MusicAPI.Controllers
         [HttpPost]                             //From Body tells the endpoint to accept data from the body of the request           
         public async Task<IActionResult> Post([FromBody] Personal personal)
         {
-            if(personal != null)
+            if(ModelState.IsValid)
             {
                 await _context.Personal.AddAsync(personal);
                 await _context.SaveChangesAsync();
@@ -65,7 +65,7 @@ namespace MusicAPI.Controllers
             }
             else
             {
-                return NotFound("Record is not complete"); 
+                return BadRequest(ModelState); 
             }
         }
             //URL param
