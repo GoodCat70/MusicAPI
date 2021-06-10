@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\garciarud\\Desktop\\Git\\MusicAPI\\MusicAPI\\MusicAPI.csproj": {}
+    "C:\\Users\\garciarud\\Desktop\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\garciarud\\Desktop\\Git\\MusicAPI\\MusicAPI\\MusicAPI.csproj": {
+    "C:\\Users\\garciarud\\Desktop\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\garciarud\\Desktop\\Git\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
+        "projectUniqueName": "C:\\Users\\garciarud\\Desktop\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
         "projectName": "MusicAPI",
-        "projectPath": "C:\\Users\\garciarud\\Desktop\\Git\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
+        "projectPath": "C:\\Users\\garciarud\\Desktop\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
         "packagesPath": "C:\\Users\\garciarud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\garciarud\\Desktop\\Git\\MusicAPI\\MusicAPI\\obj\\",
+        "outputPath": "C:\\Users\\garciarud\\Desktop\\MusicAPI\\MusicAPI\\MusicAPI\\MusicAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\garciarud\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://devweb:83/Nuget": {},
+          "http://devweb:83/nuget": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.telerik.com/nuget": {}
         },
